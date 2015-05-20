@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D8489491B02FD9200993BBB /* ClassRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8489481B02FD9200993BBB /* ClassRelation.m */; };
 		5DEAE7FE1AF1D2A700D55CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAE7FD1AF1D2A700D55CE1 /* main.m */; };
 		5DEAE8011AF1D2A700D55CE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAE8001AF1D2A700D55CE1 /* AppDelegate.m */; };
 		5DEAE8041AF1D2A700D55CE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAE8031AF1D2A700D55CE1 /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		5DEAE8091AF1D2A700D55CE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DEAE8081AF1D2A700D55CE1 /* Images.xcassets */; };
 		5DEAE80C1AF1D2A700D55CE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DEAE80A1AF1D2A700D55CE1 /* LaunchScreen.xib */; };
 		5DEAE8181AF1D2A700D55CE1 /* DeepIntoRuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAE8171AF1D2A700D55CE1 /* DeepIntoRuntimeTests.m */; };
+		5DEAE8231AF1D32100D55CE1 /* AutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAE8221AF1D32100D55CE1 /* AutoDictionary.m */; };
+		5DEAE8291AF1D9D900D55CE1 /* NSArray+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAE8281AF1D9D900D55CE1 /* NSArray+MethodSwizzling.m */; };
+		5DEAE82C1AF1FEF400D55CE1 /* MsgTransmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAE82B1AF1FEF400D55CE1 /* MsgTransmit.m */; };
+		5DEAE82F1AF20BA600D55CE1 /* helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DEAE82D1AF20BA600D55CE1 /* helper.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D8489471B02FD9200993BBB /* ClassRelation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassRelation.h; sourceTree = "<group>"; };
+		5D8489481B02FD9200993BBB /* ClassRelation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassRelation.m; sourceTree = "<group>"; };
 		5DEAE7F81AF1D2A700D55CE1 /* DeepIntoRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepIntoRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEAE7FC1AF1D2A700D55CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DEAE7FD1AF1D2A700D55CE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,14 @@
 		5DEAE8111AF1D2A700D55CE1 /* DeepIntoRuntimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepIntoRuntimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DEAE8161AF1D2A700D55CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DEAE8171AF1D2A700D55CE1 /* DeepIntoRuntimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepIntoRuntimeTests.m; sourceTree = "<group>"; };
+		5DEAE8211AF1D32100D55CE1 /* AutoDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoDictionary.h; sourceTree = "<group>"; };
+		5DEAE8221AF1D32100D55CE1 /* AutoDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoDictionary.m; sourceTree = "<group>"; };
+		5DEAE8271AF1D9D900D55CE1 /* NSArray+MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MethodSwizzling.h"; sourceTree = "<group>"; };
+		5DEAE8281AF1D9D900D55CE1 /* NSArray+MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MethodSwizzling.m"; sourceTree = "<group>"; };
+		5DEAE82A1AF1FEF400D55CE1 /* MsgTransmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgTransmit.h; sourceTree = "<group>"; };
+		5DEAE82B1AF1FEF400D55CE1 /* MsgTransmit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgTransmit.m; sourceTree = "<group>"; };
+		5DEAE82D1AF20BA600D55CE1 /* helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = helper.c; sourceTree = "<group>"; };
+		5DEAE82E1AF20BA600D55CE1 /* helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +96,21 @@
 		5DEAE7FA1AF1D2A700D55CE1 /* DeepIntoRuntime */ = {
 			isa = PBXGroup;
 			children = (
+				5DEAE82E1AF20BA600D55CE1 /* helper.h */,
+				5DEAE82D1AF20BA600D55CE1 /* helper.c */,
 				5DEAE7FF1AF1D2A700D55CE1 /* AppDelegate.h */,
 				5DEAE8001AF1D2A700D55CE1 /* AppDelegate.m */,
 				5DEAE8021AF1D2A700D55CE1 /* ViewController.h */,
 				5DEAE8031AF1D2A700D55CE1 /* ViewController.m */,
-				5DEAE8051AF1D2A700D55CE1 /* Main.storyboard */,
-				5DEAE8081AF1D2A700D55CE1 /* Images.xcassets */,
-				5DEAE80A1AF1D2A700D55CE1 /* LaunchScreen.xib */,
+				5DEAE8211AF1D32100D55CE1 /* AutoDictionary.h */,
+				5DEAE8221AF1D32100D55CE1 /* AutoDictionary.m */,
+				5DEAE8271AF1D9D900D55CE1 /* NSArray+MethodSwizzling.h */,
+				5DEAE8281AF1D9D900D55CE1 /* NSArray+MethodSwizzling.m */,
 				5DEAE7FB1AF1D2A700D55CE1 /* Supporting Files */,
+				5DEAE82A1AF1FEF400D55CE1 /* MsgTransmit.h */,
+				5DEAE82B1AF1FEF400D55CE1 /* MsgTransmit.m */,
+				5D8489471B02FD9200993BBB /* ClassRelation.h */,
+				5D8489481B02FD9200993BBB /* ClassRelation.m */,
 			);
 			path = DeepIntoRuntime;
 			sourceTree = "<group>";
@@ -96,6 +118,9 @@
 		5DEAE7FB1AF1D2A700D55CE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5DEAE8051AF1D2A700D55CE1 /* Main.storyboard */,
+				5DEAE8081AF1D2A700D55CE1 /* Images.xcassets */,
+				5DEAE80A1AF1D2A700D55CE1 /* LaunchScreen.xib */,
 				5DEAE7FC1AF1D2A700D55CE1 /* Info.plist */,
 				5DEAE7FD1AF1D2A700D55CE1 /* main.m */,
 			);
@@ -221,7 +246,12 @@
 			files = (
 				5DEAE8041AF1D2A700D55CE1 /* ViewController.m in Sources */,
 				5DEAE8011AF1D2A700D55CE1 /* AppDelegate.m in Sources */,
+				5DEAE8231AF1D32100D55CE1 /* AutoDictionary.m in Sources */,
 				5DEAE7FE1AF1D2A700D55CE1 /* main.m in Sources */,
+				5DEAE8291AF1D9D900D55CE1 /* NSArray+MethodSwizzling.m in Sources */,
+				5DEAE82C1AF1FEF400D55CE1 /* MsgTransmit.m in Sources */,
+				5D8489491B02FD9200993BBB /* ClassRelation.m in Sources */,
+				5DEAE82F1AF20BA600D55CE1 /* helper.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +446,7 @@
 				5DEAE81D1AF1D2A700D55CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DEAE81E1AF1D2A700D55CE1 /* Build configuration list for PBXNativeTarget "DeepIntoRuntimeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +455,7 @@
 				5DEAE8201AF1D2A700D55CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

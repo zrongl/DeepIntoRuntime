@@ -10,4 +10,6 @@
 
 @interface MsgTransmit : NSObject
 
+- (void)myFun;
+
 @end

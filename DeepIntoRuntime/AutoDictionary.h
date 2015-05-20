@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+// 如果需要为
+
 @interface AutoDictionary : NSObject
+
+@property (nonatomic, strong) NSString *string;
+@property (nonatomic, strong) NSNumber *number;
+@property (nonatomic, strong) NSDate *date;
+@property (nonatomic, strong) id object;
 
 @end

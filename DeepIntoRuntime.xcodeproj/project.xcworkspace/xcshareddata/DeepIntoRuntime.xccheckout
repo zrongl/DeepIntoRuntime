@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8D790CDA-5ECB-49CD-B9AC-2A32E7D2ECC5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DeepIntoRuntime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DF02E8EDE67A59D70DCF506CD0978FFBA4B2E86E</key>
+		<string>https://github.com/zrongl/DeepIntoRuntime.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DeepIntoRuntime.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DF02E8EDE67A59D70DCF506CD0978FFBA4B2E86E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zrongl/DeepIntoRuntime.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DF02E8EDE67A59D70DCF506CD0978FFBA4B2E86E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DF02E8EDE67A59D70DCF506CD0978FFBA4B2E86E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DeepIntoRuntime</string>
+		</dict>
+	</array>
+</dict>
+</plist>
